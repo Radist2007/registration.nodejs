@@ -1,0 +1,22 @@
+{
+  "name": "registration.node.js",
+  "version": "1.0.0",
+  "description": "node.js site",
+  "main": "registration.node.js",
+  "scripts": {
+    "test": "testCommand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radist2007/registration.nodejs.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Radist2007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radist2007/registration.nodejs/issues"
+  },
+  "homepage": "https://github.com/Radist2007/registration.nodejs#readme"
+}
