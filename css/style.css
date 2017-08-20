@@ -67,3 +67,34 @@ footer {
 	
 	border: 1px solid red; 
 }
+
+@keyframes logo {
+	0% {
+		border-radius: 0 0 0 0;
+		transform: rotate(0deg);
+	}
+	25% {
+		border-radius: 50% 0 0 0;
+		transform: rotate(45deg);
+	}
+	50% {
+		border-radius: 50% 50% 0 0;
+		transform: rotate(90deg);
+	}
+	75% {
+		border-radius: 50% 50% 50% 0;
+		transform: rotate(135deg);
+	}
+	100% {
+		border-radius: 50% 50% 50% 50%;
+		transform: rotate(180deg);
+	}
+}
+
+.logo {
+	width:20px;
+	height: 20px;
+	background-color: #666;
+	animation: logo 2s ease 1s forwards;
+	/* animation-play-state: paused; */
+}
