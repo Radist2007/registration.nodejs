@@ -9,21 +9,11 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <header class="header">
-                <button class="btn"><a href="./home">Home</a></button>
-                <button class="btn"><a href="./sendMail">SendMail</a></button>
-                <button class="btn"><a href="./about">about</a></button>
-                <button class="btn"><a href="./test">test</a></button>
-                <button class="btn"><a href="./test">Test</a></button>
-                <button class="btn"><a href="./">sam</a></button>
-        </header>
-
+        {{> header}}
 
         {{{body}}}
 
+        {{> footer}}
 
-		<footer class="footer">
-			<p>&copy; Відправ листа 2017</p>
-		</footer>
     </body>
 </html>
