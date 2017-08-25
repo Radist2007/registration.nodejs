@@ -15,16 +15,18 @@ body {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
 }
 
 .wrap {
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    text-align: center;
     border-radius: 10px;
     padding: 10%;
     margin: 5% 20%;
     background-color: #666;
+    /* background-image: url(../img/binding_dark_@2X.png); */
 }
 
 .formLogin, .formRegistration {
@@ -37,6 +39,7 @@ body {
     border: 1px solid red;
     margin: 10px;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .btn {
