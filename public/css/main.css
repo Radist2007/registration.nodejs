@@ -20,23 +20,23 @@ body {
 }
 
 .wrap {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     border-radius: 10px;
     padding: 10%;
     margin: 5% 20%;
-    background-color: #666;
+    background-color: rgb(63, 76, 81);
     /* background-image: url(../img/binding_dark_@2X.png); */
 }
 
 .formLogin, .formRegistration {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
 }
 
 .formInput {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 10px;
     padding: 5px;
     border-radius: 5px;
@@ -58,4 +58,9 @@ a {
     text-transform: uppercase;
     padding: 10px;
     text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
 }
