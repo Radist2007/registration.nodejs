@@ -48,7 +48,7 @@ app.use(require('body-parser')());
 //--------------------------------------------------------------------------------Подключаем страницы
 app.get('/', function(req, res){
 	res.render('home');
-	console.log('/ -->/home'); 
+	console.log('/ -->/home');
 	connection.query("SELECT * FROM users", function(error, rows, fields) {
 		if(!!error) {
 			console.log('Error in the query');
